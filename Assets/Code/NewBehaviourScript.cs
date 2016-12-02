@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class NewBehaviourScript : MonoBehaviour {
@@ -11,5 +12,9 @@ public class NewBehaviourScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+	}
+
+	public void SwitchScene(){
+		SceneManager.LoadScene ("aaa");
 	}
 }
