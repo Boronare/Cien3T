@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using System;
+using UnityEngine.SceneManagement;
 
 public class healthbar : MonoBehaviour {
 	public int hp = 100;
@@ -22,7 +23,7 @@ public class healthbar : MonoBehaviour {
 	void Start () {
 		inithp = hp;
 
-		Damage d = new Damage (){ name = "enemy", dmg = 10 };//태그 enemy의 데미지에 대한 정보를 저장하는것  
+		Damage d = new Damage (){ name = "enemy", dmg = 3 };//태그 enemy의 데미지에 대한 정보를 저장하는것  
 		damageList.Add (d);
 		Damage c = new Damage (){ name = "e", dmg = 20 };
 		damageList.Add (c);
@@ -46,8 +47,9 @@ public class healthbar : MonoBehaviour {
 				print ("health : " + hp);//데미지 확인용
 				hp -= dmg.dmg;//체력 감소
 				imgHpbar.fillAmount = (float)hp / (float)inithp;//증감수치를 통해서 크기를 바꾼
-				hptext.text=Convert.ToString(hp); 
+				Debug.Log (hp);
 				if (hp <= 0) {
+					Debug.Log ("as");
 					Playerdie ();//게임오버 함수를 호출한다.
 				}
 			}
@@ -68,7 +70,6 @@ public class healthbar : MonoBehaviour {
 	
 	}
 	void Playerdie (){
-		Dead = true;
-		print ("dead");
+		SceneManager.LoadScene ("Scene/lose_scene_sw");
 	}
 }

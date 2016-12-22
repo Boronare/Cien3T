@@ -13,8 +13,7 @@ public class NewBehaviourScript : MonoBehaviour {
 	void Update () {
 	
 	}
-
 	public void SwitchScene(){
-		SceneManager.LoadScene ("aaa");
+		SceneManager.LoadScene ("main_scene_sw");
 	}
 }
