@@ -30,7 +30,7 @@ public class EnemyControl : MonoBehaviour {
 				}
 			}
 		} else {
-			targetposition = GameObject.Find ("slime").transform.position;
+			targetposition = GameObject.Find ("Player").transform.position;
 			chasingwill -= Time.deltaTime;
 			transform.position = Vector3.MoveTowards (transform.position, targetposition, 5 * Time.deltaTime);
 			if (chasingwill < 0f) {

@@ -13,7 +13,6 @@ public class RotationController : EventTrigger
 
 	void Awake()
 	{
-		Character = GameObject.Find ("slime").transform;
 		Stick = transform.FindChild("Stick").GetComponent<Image> ();
 		orignPos = gameObject.GetComponent<Image>().rectTransform.position;       
 		//이때 하면 스틱의 좌표가 0인 상태일 수 있음으로, Start에서 초기좌표를 저장해둔다.
@@ -24,6 +23,9 @@ public class RotationController : EventTrigger
 	void Start()
 	{
 		orignPos = Stick.transform.position;
+	}
+	void Update(){
+		if(Character == null) Character = GameObject.Find ("character").transform;
 	}
 		
 	public override void OnDrag(PointerEventData eData)

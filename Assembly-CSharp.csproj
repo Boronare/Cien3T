@@ -45,14 +45,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Code\CharacterSelect.cs" />
      <Compile Include="Assets\Code\EnemyControl.cs" />
+     <Compile Include="Assets\Code\Global.cs" />
+     <Compile Include="Assets\Code\HP_Change.cs" />
      <Compile Include="Assets\Code\NewBehaviourScript.cs" />
      <Compile Include="Assets\Code\PlayerTestMove.cs" />
      <Compile Include="Assets\Code\PositionController.cs" />
+     <Compile Include="Assets\Code\Return_Start.cs" />
      <Compile Include="Assets\Code\RotationController.cs" />
      <Compile Include="Assets\Code\Sight.cs" />
      <Compile Include="Assets\Code\Start_Scene.cs" />
+     <Compile Include="Assets\Code\Talking_Script.cs" />
      <Compile Include="Assets\Code\healthbar.cs" />
+     <Compile Include="Assets\Player.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

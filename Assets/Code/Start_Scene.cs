@@ -15,7 +15,6 @@ public class Start_Scene: MonoBehaviour {
 		}
 
 	 public	void OnClick(){
-		Debug.Log ("asdf");
-		SceneManager.LoadScene ("Scene/main_scene_sw",LoadSceneMode.Single);
+		SceneManager.LoadScene ("Scene/Choosing_Char",LoadSceneMode.Single);
 		}
 }

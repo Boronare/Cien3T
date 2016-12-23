@@ -14,7 +14,7 @@ public class PositionController : EventTrigger
 	void Awake()
 	{
 		camera = GameObject.Find ("Main Camera").transform;
-		character= GameObject.Find ("slime").transform;
+		character= GameObject.Find ("Player").transform;
 		stick = transform.FindChild("Stick").GetComponent<Image> ();
 		orignPos = gameObject.GetComponent<Image>().rectTransform.position;       
 		//이때 하면 스틱의 좌표가 0인 상태일 수 있음으로, Start에서 초기좌표를 저장해둔다.
@@ -32,7 +32,7 @@ public class PositionController : EventTrigger
 	bool isDragging = false;
 	void Update(){
 		if (isDragging) {
-			camera.position -= dir * Time.deltaTime * 5;
+			//camera.position -= dir * Time.deltaTime * 5;
 			character.position -= dir * Time.deltaTime * 5;
 		}
 	}
@@ -58,7 +58,7 @@ public class PositionController : EventTrigger
 			stick.rectTransform.position = orignPos - (dir * 10);
 		}  
 
-		if (camera != null) {
+		if (character != null) {
 			isDragging = true;
 		}
 	}

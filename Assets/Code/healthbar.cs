@@ -7,10 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class healthbar : MonoBehaviour {
 	public int hp = 100;
-	private int inithp;
-	public Image imgHpbar;
 	public Text hptext;
-	public bool Dead =false;
+
 	class Damage{
 		public string name = "";
 		public int dmg;
@@ -21,8 +19,8 @@ public class healthbar : MonoBehaviour {
 	IList<string> collidingList = new List<string>();//현재 접촉상황임을 확인 가ㅇ한
 
 	void Start () {
-		inithp = hp;
-
+		Global.recordedHp=hp;
+		Global.firsthp=hp;
 		Damage d = new Damage (){ name = "enemy", dmg = 3 };//태그 enemy의 데미지에 대한 정보를 저장하는것  
 		damageList.Add (d);
 		Damage c = new Damage (){ name = "e", dmg = 20 };
@@ -46,10 +44,8 @@ public class healthbar : MonoBehaviour {
 			if (tag == dmg.name) {// 데미지를 받는 태그를 확인한다.
 				print ("health : " + hp);//데미지 확인용
 				hp -= dmg.dmg;//체력 감소
-				imgHpbar.fillAmount = (float)hp / (float)inithp;//증감수치를 통해서 크기를 바꾼
-				Debug.Log (hp);
+				Global.recordedHp=hp;
 				if (hp <= 0) {
-					Debug.Log ("as");
 					Playerdie ();//게임오버 함수를 호출한다.
 				}
 			}
@@ -70,6 +66,8 @@ public class healthbar : MonoBehaviour {
 	
 	}
 	void Playerdie (){
-		SceneManager.LoadScene ("Scene/lose_scene_sw");
+		if(Global.gameover==false){
+			Global.gameover = true;
+		}
 	}
 }
