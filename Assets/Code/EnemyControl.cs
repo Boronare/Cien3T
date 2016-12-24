@@ -20,12 +20,12 @@ public class EnemyControl : MonoBehaviour {
 	void Update () {
 		if (!Sight.PlayerFind) {
 			if (wait > 0.0f) {
-				wait -= Time.deltaTime*2;
+				wait -= Time.deltaTime*5;
 			} else {
-				wait -= Time.deltaTime*2;
-				transform.Translate (randomValue.x * Time.deltaTime / 2, randomValue.y * Time.deltaTime / 2, 0);
-				if (wait < -2.0f) {
-					wait = Random.Range (waitingtime, waitingtime * 2);
+				wait -= Time.deltaTime*5;
+				transform.Translate (randomValue.x * Time.deltaTime*4, randomValue.y * Time.deltaTime*4 , 0);
+				if (wait < -3.0f) {
+					wait = Random.Range (waitingtime, waitingtime * 3);
 					randomValue = Random.insideUnitCircle;
 				}
 			}

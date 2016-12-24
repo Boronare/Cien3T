@@ -17,6 +17,7 @@ public class HP_Change : MonoBehaviour {
 		inithp = Global.firsthp;
 		hp = Global.recordedHp;
 		imgHpbar.fillAmount = (float)hp / (float)inithp;//증감수치를 통해서 크기를 바꾼다.			
+
 	}
 
 

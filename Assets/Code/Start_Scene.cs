@@ -16,5 +16,6 @@ public class Start_Scene: MonoBehaviour {
 
 	 public	void OnClick(){
 		SceneManager.LoadScene ("Scene/Choosing_Char",LoadSceneMode.Single);
-		}
+		Global.gameover = false;
+	}
 }

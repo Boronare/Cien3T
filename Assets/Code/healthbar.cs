@@ -42,11 +42,12 @@ public class healthbar : MonoBehaviour {
 	void TakeDamage(string tag){
 		foreach (Damage dmg in damageList) {
 			if (tag == dmg.name) {// 데미지를 받는 태그를 확인한다.
-				print ("health : " + hp);//데미지 확인용
+				//print ("health : " + hp);//데미지 확인용
 				hp -= dmg.dmg;//체력 감소
 				Global.recordedHp=hp;
 				if (hp <= 0) {
-					Playerdie ();//게임오버 함수를 호출한다.
+					Debug.Log ("af");
+				Global.gameover = true;//게임오버 상수를 반환한다.
 				}
 			}
 		}
@@ -65,9 +66,5 @@ public class healthbar : MonoBehaviour {
 		collidingList.Remove (coll.gameObject.tag);
 	
 	}
-	void Playerdie (){
-		if(Global.gameover==false){
-			Global.gameover = true;
-		}
-	}
+		
 }

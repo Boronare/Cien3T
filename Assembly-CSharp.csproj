@@ -47,9 +47,9 @@
   <ItemGroup>
      <Compile Include="Assets\Code\CharacterSelect.cs" />
      <Compile Include="Assets\Code\EnemyControl.cs" />
+     <Compile Include="Assets\Code\Game_Over.cs" />
      <Compile Include="Assets\Code\Global.cs" />
      <Compile Include="Assets\Code\HP_Change.cs" />
-     <Compile Include="Assets\Code\NewBehaviourScript.cs" />
      <Compile Include="Assets\Code\PlayerTestMove.cs" />
      <Compile Include="Assets\Code\PositionController.cs" />
      <Compile Include="Assets\Code\Return_Start.cs" />

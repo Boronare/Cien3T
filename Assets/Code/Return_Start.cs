@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class Return_Start: MonoBehaviour {
-
+	
 	// Use this for initialization
 	void Start () {
 
@@ -16,5 +16,6 @@ public class Return_Start: MonoBehaviour {
 
 	public	void OnClick(){
 		SceneManager.LoadScene ("Scene/0_start",LoadSceneMode.Single);
+
 	}
 }
