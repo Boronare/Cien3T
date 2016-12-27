@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class CharacterSelect : MonoBehaviour {
 	// Use this for initialization
-	public GameObject gameoverscreen;
+	public GameObject Choosed;
 	void Start () {
 	
 	}
@@ -17,6 +17,5 @@ public class CharacterSelect : MonoBehaviour {
 	}
 	public void NextScene(){
 		SceneManager.LoadScene ("Scene/main_scene_sw",LoadSceneMode.Single);
-		this.gameoverscreen.SetActive (false);
 	}
 }
