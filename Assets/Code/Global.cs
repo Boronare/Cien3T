@@ -1,5 +1,6 @@
 ﻿public static class Global {
 
+	public static int speedAmount =5;
 	public static int selectedChar = 0;//캐릭터 선택창에서 캐릭터를 고르는데 쓰인다
 	public static int recordedHp=0;// healthbar에서 hpchange로 전해줄 글로벌 상수
 	public static int firsthp=0;//위와 동일

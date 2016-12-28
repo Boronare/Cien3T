@@ -9,7 +9,7 @@ public class PositionController : EventTrigger
 	private Transform character;
 	private Image stick;
 	private Vector3 orignPos = Vector3.zero;
-
+	public int speedValue=5;
 
 	void Awake()
 	{
@@ -19,12 +19,11 @@ public class PositionController : EventTrigger
 		orignPos = gameObject.GetComponent<Image>().rectTransform.position;       
 		//이때 하면 스틱의 좌표가 0인 상태일 수 있음으로, Start에서 초기좌표를 저장해둔다.
 		//Start는 Awake()가 불려서 콤포넌트나 컨트롤들이 초기화 된후에 불린다.
-	}
+		}
 
 
 	void Start()
-	{
-			
+	{			
 		orignPos = stick.transform.position;
 	}
 
@@ -32,8 +31,9 @@ public class PositionController : EventTrigger
 	bool isDragging = false;
 	void Update(){
 		if (isDragging) {
+			speedValue = Global.speedAmount;
 			//camera.position -= dir * Time.deltaTime * 5;
-			character.position -= dir * Time.deltaTime * 5;
+			character.position -= dir * Time.deltaTime * speedValue;
 		}
 	}
 

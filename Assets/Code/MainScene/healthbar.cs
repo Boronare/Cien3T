@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class healthbar : MonoBehaviour {
 	public int hp = 100;
+	public int speed=5;
 	public Text hptext;
 
 	class Damage{
@@ -21,6 +22,7 @@ public class healthbar : MonoBehaviour {
 	void Start () {
 		Global.recordedHp=hp;
 		Global.firsthp=hp;
+		Global.speedAmount = speed;
 		Damage d = new Damage (){ name = "enemy", dmg = 3 };//태그 enemy의 데미지에 대한 정보를 저장하는것  
 		damageList.Add (d);
 		Damage c = new Damage (){ name = "e", dmg = 20 };
@@ -46,7 +48,7 @@ public class healthbar : MonoBehaviour {
 				hp -= dmg.dmg;//체력 감소
 				Global.recordedHp=hp;
 				if (hp <= 0) {
-					Debug.Log ("af");
+
 				Global.gameover = true;//게임오버 상수를 반환한다.
 				}
 			}
