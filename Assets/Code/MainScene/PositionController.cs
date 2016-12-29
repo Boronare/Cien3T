@@ -13,7 +13,6 @@ public class PositionController : EventTrigger
 
 	void Awake()
 	{
-		camera = GameObject.Find ("Main Camera").transform;
 		character= GameObject.Find ("Player").transform;
 		stick = transform.FindChild("Stick").GetComponent<Image> ();
 		orignPos = gameObject.GetComponent<Image>().rectTransform.position;       
@@ -31,9 +30,9 @@ public class PositionController : EventTrigger
 	bool isDragging = false;
 	void Update(){
 		if (isDragging) {
-			speedValue = Global.speedAmount;
+			speedValue = Global.speedAmount;//글로벌 값에서 반환받는다
 			//camera.position -= dir * Time.deltaTime * 5;
-			character.position -= dir * Time.deltaTime * speedValue;
+			character.position -= dir * Time.deltaTime * speedValue;//캐릭터의 속도를 받고 이동한다. 
 		}
 	}
 
@@ -59,7 +58,7 @@ public class PositionController : EventTrigger
 		}  
 
 		if (character != null) {
-			isDragging = true;
+			isDragging = true;//드래그 할때 와 아닌때를 구분 한다.
 		}
 	}
 

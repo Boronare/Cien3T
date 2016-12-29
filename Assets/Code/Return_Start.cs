@@ -15,7 +15,7 @@ public class Return_Start: MonoBehaviour {
 	}
 
 	public	void OnClick(){
-		SceneManager.LoadScene ("Scene/0_start",LoadSceneMode.Single);
+		SceneManager.LoadScene ("Scene/0_start",LoadSceneMode.Single);//초기 화면으로 이동합니다. 
 
 	}
 }
