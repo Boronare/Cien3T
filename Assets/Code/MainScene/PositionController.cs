@@ -5,8 +5,8 @@ using UnityEngine.EventSystems;
 
 public class PositionController : EventTrigger
 {
-	private Transform camera;
-	private Transform character;
+	private Transform character;//player을 의미한다
+	private Transform char1;
 	private Image stick;
 	private Vector3 orignPos = Vector3.zero;
 	public int speedValue=5;
@@ -18,22 +18,24 @@ public class PositionController : EventTrigger
 		orignPos = gameObject.GetComponent<Image>().rectTransform.position;       
 		//이때 하면 스틱의 좌표가 0인 상태일 수 있음으로, Start에서 초기좌표를 저장해둔다.
 		//Start는 Awake()가 불려서 콤포넌트나 컨트롤들이 초기화 된후에 불린다.
-		}
+	}
 
 
-	void Start()
-	{			
+	void Start(){			
 		orignPos = stick.transform.position;
 	}
 
 	Vector3 dir;
 	bool isDragging = false;
 	void Update(){
+
 		if (isDragging) {
 			speedValue = Global.speedAmount;//글로벌 값에서 반환받는다
 			//camera.position -= dir * Time.deltaTime * 5;
 			character.position -= dir * Time.deltaTime * speedValue;//캐릭터의 속도를 받고 이동한다. 
 		}
+		//camera.position=character.position;
+		char1 = character;
 	}
 
 	public override void OnDrag(PointerEventData eData)
@@ -45,7 +47,7 @@ public class PositionController : EventTrigger
 
 		//터치한 곳과, 조이스틱 처음 위치를 기준으로, 이동한 방향을 구해둔다. 곧 캐릭터 이동에 사용한다.
 		dir = (orignPos - new Vector3(posX, posY, orignPos.z)).normalized*3;
-
+	
 		//터치한 부분이 조이스틱의 원래 위치기준으로 얼마나 움직였나를 체크한다.
 		//차후에, 조이스틱이 영역을 벗어나면, 못 벗어나게 하는 처리등에 사용할 수 있다.
 		float touchAreaRadius = Vector3.Distance(orignPos, new Vector3(posX, posY, orignPos.z));
@@ -72,4 +74,5 @@ public class PositionController : EventTrigger
 
 		isDragging = false;
 	}
+
 } 

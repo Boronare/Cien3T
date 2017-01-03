@@ -50,6 +50,8 @@
      <Compile Include="Assets\Code\MainScene\EnemyControl.cs" />
      <Compile Include="Assets\Code\MainScene\Game_Over.cs" />
      <Compile Include="Assets\Code\MainScene\HP_Change.cs" />
+     <Compile Include="Assets\Code\MainScene\Player.cs" />
+     <Compile Include="Assets\Code\MainScene\PlayerCollision.cs" />
      <Compile Include="Assets\Code\MainScene\PositionController.cs" />
      <Compile Include="Assets\Code\MainScene\RotationController.cs" />
      <Compile Include="Assets\Code\MainScene\Sight.cs" />
@@ -58,7 +60,6 @@
      <Compile Include="Assets\Code\Return_Start.cs" />
      <Compile Include="Assets\Code\StartCode\Start_Scene.cs" />
      <Compile Include="Assets\Code\Talking_Script.cs" />
-     <Compile Include="Assets\Player.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

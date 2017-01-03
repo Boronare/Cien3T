@@ -42,7 +42,7 @@ public class RotationController : EventTrigger
 		if (Stick != null)
 		{
 			//터치한 위치로, 조이스틱이 움직이도록 한다.
-			Stick.rectTransform.position = orignPos - (dir * 10);
+			Stick.rectTransform.position = orignPos - (dir * 4);
 		}  
 
 		if (Character != null) {
