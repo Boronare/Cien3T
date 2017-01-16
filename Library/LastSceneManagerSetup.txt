@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Choosing_Char.unity
+- path: Assets/Scene/main_scene_sw.unity
   isLoaded: 1
   isActive: 1
