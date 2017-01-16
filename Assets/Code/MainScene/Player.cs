@@ -2,7 +2,6 @@
 using System.Collections;
 
 public class Player : MonoBehaviour {
-
 	// Use this for initialization
 	void Start () {
 		GameObject character = (GameObject)Resources.LoadAll ("character" + Global.selectedChar, typeof(GameObject))[0];
@@ -12,7 +11,5 @@ public class Player : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
-	}
+
 }

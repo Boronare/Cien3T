@@ -7,9 +7,10 @@ public class EnemyControl : MonoBehaviour {
 	private Vector2 baseposition;
 	private float chasingwill = 3.0f;
 	private float walkrange = 5.0f;
-	private Vector2 randomValue = Random.insideUnitCircle;
 	private Vector2 targetposition;
+	private Vector2 randomValue;
 	void Start () {
+		randomValue = Random.insideUnitCircle;
 		baseposition = this.transform.position;
 		wait = waitingtime;
 		transform.Find ("Enemy Sight").position = this.transform.position;
