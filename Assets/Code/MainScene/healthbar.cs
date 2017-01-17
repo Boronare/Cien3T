@@ -35,8 +35,5 @@ public class healthbar : MonoBehaviour {
 				}
 			Global.damage = 0;
 		}
-	}
-
-
-		
+	}		
 }
