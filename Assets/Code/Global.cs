@@ -6,5 +6,5 @@
 	public static int firsthp=0;//위와 동일
 	public static int damage=0;
 	public static bool gameover = false;//게임 오버 함수로 체력이 0일때 반환되는값 
-
+	public static int selectedGod = 0;//신 선택창에서 신를 고르는데 쓰인다
 }

@@ -13,7 +13,7 @@ public class EnemyControl : MonoBehaviour {
 		randomValue = Random.insideUnitCircle;
 		baseposition = this.transform.position;
 		wait = waitingtime;
-		transform.Find ("Enemy Sight").position = this.transform.position;
+		transform.Find ("EnemySight").position = this.transform.position;
 	}
 	
 	// Update is called once per frame
