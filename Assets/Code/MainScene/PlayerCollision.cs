@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerCollision : MonoBehaviour {
 
+
 	class Damage{
 		public string name = "";
 		public int dmg;
@@ -49,7 +50,7 @@ public class PlayerCollision : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D coll){
 		collidingList.Add (coll.collider.gameObject.tag);//콜리더값을 찾습니다.
-	}
+    }
 
 	void OnCollisionExit2D(Collision2D coll){
 		collidingList.Remove (coll.collider.gameObject.tag);// 콜리더값을 다쓴 다음에 없앱니다 

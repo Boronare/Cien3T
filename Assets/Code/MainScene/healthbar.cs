@@ -6,11 +6,13 @@ using System;
 using UnityEngine.SceneManagement;
 
 public class healthbar : MonoBehaviour {
-	public int hp = 100;
-	public int speed=5;
-	public Text hptext;
+    public enum trait{ warrior, shooter }
+    public int trvalue;
+    int hp = 100;
+    int speed = 5;
 
-		void Start () {
+
+void Start () {
 		Global.recordedHp=hp;//글로벌 변수에게 HP전달
 		Global.firsthp=hp; //글로벌 변수에 처음 hp를 
 		Global.speedAmount = speed;//글로벌 변수에 처음 hp를
@@ -35,8 +37,5 @@ public class healthbar : MonoBehaviour {
 				}
 			Global.damage = 0;
 		}
-	}
-
-
-		
+	}		
 }
