@@ -1624,6 +1624,52 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1001 &1029294536
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4327956928251444, guid: cf67c6c1408a14727bf471207e678a37, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327956928251444, guid: cf67c6c1408a14727bf471207e678a37, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327956928251444, guid: cf67c6c1408a14727bf471207e678a37, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327956928251444, guid: cf67c6c1408a14727bf471207e678a37, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327956928251444, guid: cf67c6c1408a14727bf471207e678a37, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327956928251444, guid: cf67c6c1408a14727bf471207e678a37, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327956928251444, guid: cf67c6c1408a14727bf471207e678a37, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327956928251444, guid: cf67c6c1408a14727bf471207e678a37, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004388104907806, guid: cf67c6c1408a14727bf471207e678a37, type: 2}
+      propertyPath: m_Name
+      value: character1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: cf67c6c1408a14727bf471207e678a37, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1075917068
 GameObject:
   m_ObjectHideFlags: 0
