@@ -22,6 +22,8 @@ public class Character : MonoBehaviour {
 		GetComponent<Animator> ().Play ("Attack");
 	}
 	void die(){
+		if (this == Global.playerChar)
+			MainScene.gameover();
 		GetComponent<Animator> ().Play ("Attack");
 		gameObject.SetActive (false);
 	}

@@ -41,7 +41,11 @@ public class PositionController : EventTrigger
 			if (tdir.magnitude != 0)
 				dir = tdir.normalized*3;
 		}
-		character.position -= dir * Time.deltaTime * Global.playerChar.speed;//캐릭터의 속도를 받고 이동한다. 
+		//Global.playerChar.GetComponent<Rigidbody2D>().velocity= -dir * Global.playerChar.speed;//캐릭터의 속도를 받고 이동한다.
+		//Global.playerChar.GetComponent<Rigidbody2D>().MovePosition(dir*Global.playerChar.speed);
+		Global.playerChar.transform.Translate (-dir * Global.playerChar.speed*Time.deltaTime,Space.World);
+		character.position+=Global.playerChar.transform.localPosition;
+		Global.playerChar.transform.localPosition = new Vector3 ();
 		//camera.position=character.position;
 	}
 

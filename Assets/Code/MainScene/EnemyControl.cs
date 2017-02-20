@@ -6,7 +6,7 @@ public class EnemyControl : MonoBehaviour {
 	private float wait;
 	private Vector2 baseposition;
 	private float chasingwill = 3.0f;
-	private float walkrange = 5.0f;
+	//private float walkrange = 5.0f;
 	private Vector2 targetposition;
 	private Vector2 randomValue;
 	void Start () {

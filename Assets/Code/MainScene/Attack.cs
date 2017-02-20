@@ -12,7 +12,7 @@ public class Attack : MonoBehaviour {
 			if (cmp == target)
 				return;
 		target.takeDamage(dmg);
-		c.gameObject.transform.Translate(transform.rotation*new Vector3(0,5,0),Space.World);
+		c.gameObject.transform.position+=transform.rotation*new Vector3(0,5,0);
 		targlist.Add (target);
 		Debug.Log ("Damaged!"+target.hp);
 	}

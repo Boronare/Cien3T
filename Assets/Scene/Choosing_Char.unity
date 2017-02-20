@@ -289,7 +289,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1983622024}
+      - m_Target: {fileID: 1983622023}
         m_MethodName: godSelect
         m_Mode: 3
         m_Arguments:
@@ -481,7 +481,6 @@ GameObject:
   - component: {fileID: 275967832}
   - component: {fileID: 275967835}
   - component: {fileID: 275967834}
-  - component: {fileID: 275967833}
   m_Layer: 0
   m_Name: SelectIndicator1
   m_TagString: Untagged
@@ -507,18 +506,6 @@ RectTransform:
   m_AnchoredPosition: {x: -143.99994, y: -709}
   m_SizeDelta: {x: 749, y: 155}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &275967833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 275967831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df0362e42d7cd4b01bbe2adf8216c86d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Choosed: {fileID: 0}
 --- !u!114 &275967834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1196,7 +1183,6 @@ GameObject:
   - component: {fileID: 1659579849}
   - component: {fileID: 1659579851}
   - component: {fileID: 1659579850}
-  - component: {fileID: 1659579852}
   m_Layer: 0
   m_Name: SelectIndicator
   m_TagString: Untagged
@@ -1255,18 +1241,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1659579848}
---- !u!114 &1659579852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1659579848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3db37ebb7420e94fb3deb0b0998b0e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Choosed: {fileID: 0}
 --- !u!1 &1817720074
 GameObject:
   m_ObjectHideFlags: 0
@@ -1406,7 +1380,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1983622022}
   - component: {fileID: 1983622023}
-  - component: {fileID: 1983622024}
   m_Layer: 0
   m_Name: CharacterPanel
   m_TagString: Untagged
@@ -1443,22 +1416,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1983622021}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3db37ebb7420e94fb3deb0b0998b0e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a6fdd961559ecb4bbf22d3dcea60052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Choosed: {fileID: 0}
---- !u!114 &1983622024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1983622021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df0362e42d7cd4b01bbe2adf8216c86d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Choosed: {fileID: 0}
 --- !u!1 &2074977627
 GameObject:
   m_ObjectHideFlags: 0
@@ -1535,7 +1495,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1983622024}
+      - m_Target: {fileID: 1983622023}
         m_MethodName: godSelect
         m_Mode: 3
         m_Arguments:

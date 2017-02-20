@@ -9,13 +9,15 @@ public class MainScene : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		checkGameOver (Global.playerChar.hp);
-		if (Input.GetKeyDown (KeyCode.Space))
-			sendDebugMsg ();
+		//checkGameOver (Global.playerChar.hp);
+		//if (Input.GetKeyDown (KeyCode.Space))
+		//	sendDebugMsg ();
 	}
 	void checkGameOver(int hp){
 		this.gameoverscreen.SetActive (hp<=0?true:false);
 	}
 	void sendDebugMsg(){
+	}
+	public static void gameover(){
 	}
 }
