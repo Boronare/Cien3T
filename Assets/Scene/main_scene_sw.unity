@@ -746,6 +746,11 @@ Prefab:
       propertyPath: m_Name
       value: character0 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 50219044885670918, guid: 0f1afbb8d06787f49993164591a75493,
+        type: 2}
+      propertyPath: m_LinearDrag
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0f1afbb8d06787f49993164591a75493, type: 2}
   m_IsPrefabParent: 0
@@ -2627,6 +2632,11 @@ Prefab:
     - target: {fileID: 4536634329874248, guid: 0f1afbb8d06787f49993164591a75493, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -218.51599
+      objectReference: {fileID: 0}
+    - target: {fileID: 50219044885670918, guid: 0f1afbb8d06787f49993164591a75493,
+        type: 2}
+      propertyPath: m_Simulated
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0f1afbb8d06787f49993164591a75493, type: 2}

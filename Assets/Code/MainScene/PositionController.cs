@@ -26,6 +26,8 @@ public class PositionController : EventTrigger
 	Vector3 dir;
 	bool isDragging = false;
 	void Update(){
+		character.position+=Global.playerChar.transform.localPosition;
+		Global.playerChar.transform.localPosition = new Vector3 ();
 		if (isDragging == false)
 			dir.Set (0, 0, 0);
 		{//키보드입력 혼용 추가.
@@ -42,11 +44,9 @@ public class PositionController : EventTrigger
 				dir = tdir.normalized*3;
 		}
 		//Global.playerChar.GetComponent<Rigidbody2D>().velocity= -dir * Global.playerChar.speed;//캐릭터의 속도를 받고 이동한다.
-		//Global.playerChar.GetComponent<Rigidbody2D>().MovePosition(dir*Global.playerChar.speed);
-		Global.playerChar.transform.Translate (-dir * Global.playerChar.speed*Time.deltaTime,Space.World);
-		character.position+=Global.playerChar.transform.localPosition;
-		Global.playerChar.transform.localPosition = new Vector3 ();
-		//camera.position=character.position;
+		Global.playerChar.move(dir);
+		//Global.playerChar.GetComponent<Rigidbody2D>().MovePosition(-dir*Global.playerChar.speed*Time.deltaTime);
+		//Global.playerChar.transform.Translate (-dir * Global.playerChar.speed*Time.deltaTime,Space.World);
 	}
 
 	public override void OnDrag(PointerEventData eData)

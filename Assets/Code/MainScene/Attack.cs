@@ -12,7 +12,8 @@ public class Attack : MonoBehaviour {
 			if (cmp == target)
 				return;
 		target.takeDamage(dmg);
-		c.gameObject.transform.position+=transform.rotation*new Vector3(0,5,0);
+		c.GetComponent<Rigidbody2D>().MovePosition(c.transform.position+transform.rotation*new Vector2(0,5));
+		//c.gameObject.transform.position+=transform.rotation*new Vector2(0,5);
 		targlist.Add (target);
 		Debug.Log ("Damaged!"+target.hp);
 	}

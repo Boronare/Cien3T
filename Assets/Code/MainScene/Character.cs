@@ -11,7 +11,11 @@ public class Character : MonoBehaviour {
     public int hp;
     public int speed;
 
-
+	public void move(Vector3 dir){
+		Rigidbody2D body = GetComponent<Rigidbody2D> ();
+		//body.MovePosition(body.position-(Vector2)dir*speed*Time.deltaTime);
+		body.velocity = -dir * speed;
+	}
 	public void takeDamage(int damage){
 		hp -= damage;
 		if (hp <= 0) {
