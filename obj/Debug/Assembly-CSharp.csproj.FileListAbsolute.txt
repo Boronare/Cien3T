@@ -1,71 +1,29 @@
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\Assembly-CSharp.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\Assembly-CSharp.pdb
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\UnityEditor.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\UnityEngine.Analytics.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\UnityEngine.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\UnityEngine.Networking.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\UnityEngine.UI.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\Mono.Cecil.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\Unity.SerializationLogic.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\Unity.DataContract.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\ICSharpCode.NRefactory.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\Unity.UNetWeaver.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\Unity.CecilTools.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\Mono.Cecil.Pdb.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\Mono.Cecil.Mdb.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\UnityEngine.xml
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\UnityEditor.xml
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\UnityEngine.UI.xml
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\UnityEngine.Networking.xml
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\Temp\bin\Debug\UnityEngine.Analytics.xml
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\obj\Debug\Assembly-CSharp.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\New\obj\Debug\Assembly-CSharp.pdb
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\Assembly-CSharp.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\Assembly-CSharp.pdb
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\UnityEditor.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\UnityEngine.Analytics.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\UnityEngine.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\UnityEngine.Networking.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\UnityEngine.UI.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\Mono.Cecil.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\Unity.SerializationLogic.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\Unity.DataContract.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\ICSharpCode.NRefactory.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\Unity.UNetWeaver.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\Unity.CecilTools.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\Mono.Cecil.Pdb.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\Mono.Cecil.Mdb.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\UnityEngine.xml
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\UnityEditor.xml
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\UnityEngine.UI.xml
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\UnityEngine.Networking.xml
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\Temp\bin\Debug\UnityEngine.Analytics.xml
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\obj\Debug\Assembly-CSharp.dll
-C:\Users\mizja\Desktop\게임 프로그래밍\dbslxl\joystick\obj\Debug\Assembly-CSharp.pdb
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\Assembly-CSharp.dll
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\Assembly-CSharp.pdb
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\UnityEditor.dll
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\UnityEngine.Analytics.dll
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\UnityEngine.dll
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\UnityEngine.Networking.dll
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\UnityEngine.UI.dll
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\Mono.Cecil.dll
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\Unity.SerializationLogic.dll
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\Unity.DataContract.dll
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\ICSharpCode.NRefactory.dll
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\Unity.UNetWeaver.dll
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\Unity.CecilTools.dll
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\Mono.Cecil.Pdb.dll
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\Mono.Cecil.Mdb.dll
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\UnityEngine.xml
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\UnityEditor.xml
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\UnityEngine.UI.xml
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\UnityEngine.Networking.xml
-C:\Users\mizja\OneDrive\Documents\Cien3T\Temp\bin\Debug\UnityEngine.Analytics.xml
-C:\Users\mizja\OneDrive\Documents\Cien3T\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
-C:\Users\mizja\OneDrive\Documents\Cien3T\obj\Debug\Assembly-CSharp.dll
-C:\Users\mizja\OneDrive\Documents\Cien3T\obj\Debug\Assembly-CSharp.pdb
+E:\Projects\NetworkDemo\NetworkDemo\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\Assembly-CSharp.dll
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\Assembly-CSharp.pdb
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\UnityEditor.dll
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\UnityEngine.Analytics.dll
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\UnityEngine.dll
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\UnityEngine.HoloLens.dll
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\UnityEngine.Networking.dll
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\UnityEngine.UI.dll
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\UnityEngine.VR.dll
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\Mono.Cecil.dll
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\Unity.SerializationLogic.dll
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\Unity.DataContract.dll
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\Unity.UNetWeaver.dll
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\Unity.CecilTools.dll
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\UnityEngine.xml
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\UnityEditor.xml
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\UnityEngine.UI.xml
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\UnityEngine.Networking.xml
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\UnityEngine.Analytics.xml
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\UnityEngine.HoloLens.xml
+E:\Projects\NetworkDemo\NetworkDemo\Temp\bin\Debug\UnityEngine.VR.xml
+E:\Projects\NetworkDemo\NetworkDemo\obj\Debug\Assembly-CSharp.dll
+E:\Projects\NetworkDemo\NetworkDemo\obj\Debug\Assembly-CSharp.pdb
