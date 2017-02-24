@@ -15,7 +15,7 @@ namespace ServerSide{
 		private static Socket serverSocket;
 		private static Thread welcomeThread;
 
-		public static void Begin(){
+		public static void Begin() {
 			Debug.Log ("Begin Network_Server");
 			ClientManager.Init();
 			welcomeThread = new Thread(WelcomeConnection);
@@ -23,7 +23,7 @@ namespace ServerSide{
 		}
 
 
-		private static void WelcomeConnection(){
+		private static void WelcomeConnection() {
 			ipEndPoint = new IPEndPoint(IPAddress.Any, PORT);
 			tcpListener = new TcpListener(ipEndPoint);
 
@@ -31,11 +31,16 @@ namespace ServerSide{
 
 			serverRunning = true;
 			while (serverRunning) {
+				Debug.Log("Ready");
 				try {
 					Socket welcomeSocket = tcpListener.AcceptSocket();
-					ClientManager.AddClient(welcomeSocket);
-				} catch (Exception e) {
-					
+					if(ClientManager.AddClient(welcomeSocket))
+						Debug.Log("connected");
+					else
+						Debug.Log("Server is Full");
+				}
+				catch (Exception e){
+					Debug.Log(e.Message);
 					break;
 				}
 			}
@@ -43,16 +48,15 @@ namespace ServerSide{
 			Debug.Log ("Welcome Dead");
 		}
 			
-		public static void ShutDown(){
+		public static void ShutDown() {
 			serverRunning = false;
 
 			ClientManager.ShutDown();
-			if(welcomeThread != null){
+			if(welcomeThread != null) {
 				tcpListener.Stop();
 			}
 		}
-
-		public static void Send(string str){
+		public static void Brodcast(string str) {
 			ClientManager.BroadCast (str);
 		}
 

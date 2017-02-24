@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class NetworkTranslator : MonoBehaviour {
 	private MsgHandler msgHandler;
-
+    private int FreeId;
 	void Awake(){
 		
 	}

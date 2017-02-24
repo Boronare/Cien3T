@@ -7,7 +7,7 @@ using System.Text;
 using System.IO;
 
 public class Network_Client {
-	public static string serverAddress = "127.0.0.1";
+	public static string serverAddress = "172.30.1.21";
 	public static int PORT = 11900;
 
 	private static TcpClient tcpClient;
@@ -104,6 +104,7 @@ public class Network_Client {
 
 				if(recStr != null){
 					Debug.Log("Received: " + recStr );
+                    
 					ReceiveQueue.SyncEnqueMsg(recStr);
 				}else{
 					isConnected = false;

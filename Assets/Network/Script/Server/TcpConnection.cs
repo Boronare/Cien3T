@@ -68,7 +68,7 @@ namespace ServerSide{
 
 					if(recStr != null){
 						Debug.Log(clientId + ": Received: " + recStr);
-						ReceiveQueue.SyncEnqueMsg(recStr);
+						ReceiveQueue.SyncEnqueMsg(clientId + "@" + recStr);
 					}else{
 						isConnected = false;
 					}

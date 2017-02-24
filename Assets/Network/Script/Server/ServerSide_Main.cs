@@ -12,21 +12,11 @@ namespace ServerSide{
 		}
 
 		void Start () {
-			networkTranslator.SetMsgHandler(gameObject.AddComponent<DemoMsgHandler>());
+			networkTranslator.SetMsgHandler(gameObject.AddComponent<ServerMsgHandler>());
 
 			ServerSide.Network_Server.Begin();
-
-			//StartCoroutine (testSendRoutine ());
-
 		}
-
-		private IEnumerator testSendRoutine(){
-			while (true) {
-				yield return new WaitForSeconds (3);
-
-				Network_Server.Send ("Server Says Hi");
-			}
-		}
+        
 
 
 		void OnApplicationQuit(){
