@@ -33,10 +33,11 @@ public class AttackAddSound : MonoBehaviour {
 		Debug.Log ("TriggerExit");
 	}
 	void OnEnable(){
-		targlist.Clear ();
+        this.AttackAudio.Play();
+        targlist.Clear ();
 	}
 	// Update is called once per frame
 	void Update () {
-    this.AttackAudio.Play();
+    
     }
 }

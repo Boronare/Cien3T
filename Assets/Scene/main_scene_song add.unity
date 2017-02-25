@@ -2319,6 +2319,53 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1450615933}
+--- !u!1001 &1534314057
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4536634329874248, guid: 0f1afbb8d06787f49993164591a75493, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -48.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536634329874248, guid: 0f1afbb8d06787f49993164591a75493, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536634329874248, guid: 0f1afbb8d06787f49993164591a75493, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536634329874248, guid: 0f1afbb8d06787f49993164591a75493, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536634329874248, guid: 0f1afbb8d06787f49993164591a75493, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536634329874248, guid: 0f1afbb8d06787f49993164591a75493, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536634329874248, guid: 0f1afbb8d06787f49993164591a75493, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536634329874248, guid: 0f1afbb8d06787f49993164591a75493, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 50219044885670918, guid: 0f1afbb8d06787f49993164591a75493,
+        type: 2}
+      propertyPath: m_Mass
+      value: 153.93805
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0f1afbb8d06787f49993164591a75493, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1548633249
 GameObject:
   m_ObjectHideFlags: 0
@@ -2649,7 +2696,7 @@ AudioSource:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2102078462}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6ec475d384adc6b46801c0eb0f2dffe8, type: 3}

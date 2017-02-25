@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 95374117407045750}
   - component: {fileID: 60502506528128664}
   - component: {fileID: 114490699823741694}
+  - component: {fileID: 114716050504721164}
   m_Layer: 0
   m_Name: slash
   m_TagString: Untagged
@@ -250,11 +251,24 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1703091601161194}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c9a0d28621a21f048b2857c4a7cbf309, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dmg: 10
+--- !u!114 &114716050504721164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1703091601161194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff840f1c1a25574d94dd001a37433a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttackSound: {fileID: 8300000, guid: fef667803c96be74a94dbad2c6fd9848, type: 3}
   dmg: 10
 --- !u!212 &212082327953838096
 SpriteRenderer:

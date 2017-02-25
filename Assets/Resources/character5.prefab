@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 212082327953838096}
   - component: {fileID: 95374117407045750}
   - component: {fileID: 60502506528128664}
-  - component: {fileID: 114490699823741694}
+  - component: {fileID: 114583055960211196}
   m_Layer: 0
   m_Name: slash
   m_TagString: Untagged
@@ -228,7 +228,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114490699823741694
+--- !u!114 &114583055960211196
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -236,9 +236,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1703091601161194}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9a0d28621a21f048b2857c4a7cbf309, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ff840f1c1a25574d94dd001a37433a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AttackSound: {fileID: 8300000, guid: 6f30454ae30a1a844a8c069386656ee1, type: 3}
   dmg: 10
 --- !u!212 &212082327953838096
 SpriteRenderer:
